@@ -1,1 +1,156 @@
 /* Copy and paste your CSS from CodePen into here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#title {
+    padding: 1em;
+    
+}
+
+#title h1 {
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+
+    padding: 1em 25vw 1em 25vw;
+    font-size: 1.3em;
+    line-height: 4vh;
+    letter-spacing: 2px;
+    
+}
+
+#main {
+    /* padding: em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: rgba(255, 255, 255, 0.774);
+    width: 100%;
+    padding: 5em;
+    
+}
+
+#tribute-info h2{
+    padding: 1em;
+    font-size: 2em;
+}
+
+#tribute-info .dates p{
+    padding: 0.5em;
+    font-size: 1.5em;
+    
+}
+
+#tribute-info>p{
+
+    padding: 2em 5em 1em 5em;
+    font-size: 1.1em;
+    line-height: 2em;
+    width: 50%;
+}
+
+#tribute-info p:last-of-type {
+    text-align: center;
+}
+
+#tribute-info p:last-of-type button{
+
+    padding: .2em 1em .2em 1em;
+    font-size: .9em;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+   
+}
+
+#tribute-info p:last-of-type button:hover{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+
+}
+
+h3 {
+    padding: 2.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
+ol{
+   
+    width: 30vw;
+    margin:  0 auto;
+    
+    
+}
+
+
+ol li{
+    padding: 1.5em;
+}
+
+ol li h4 {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+ol li p {
+    
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+#discography {
+    text-align: center;
+    font-size: 3em;
+    padding: 1.5em;
+}
+
+#discography-covers {
+    margin: 0px auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#discography-covers img{
+   width: 20vw;
+   display: block;
+   margin: auto;
+}
+
+#discography-covers p{
+    text-align: center;
+    font-size: clamp(0.5em, 1.2em, 1.5em);
+    padding: 1em;
+}
+
+
